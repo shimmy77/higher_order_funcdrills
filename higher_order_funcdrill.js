@@ -52,7 +52,6 @@ fire("The Roof");
 fire("your home");
 fire("the jungle");
 
-// Matt Solution
 const turtleMoves = [[0, 0], [0, 5], [-1, -3], [-3, 1], [2, -4], [3, 2]];
 
 console.log(turtleMoves.filter(move => move[0] >= 0 && move[1] >= 0));
